@@ -20,7 +20,7 @@ void _int_handle(int n) {
     exit(0);
 }
 
-int main(int argc, char* argv) {
+int main(int argc, char** argv) {
     struct Command currentCommand;
     char command[256];
 
